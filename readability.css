@@ -13,8 +13,8 @@ body {font-family: Microsoft YaHei Light;}
 	max-width: 800px;
 }
 #readInner a {
-	color: blue;
-	text-decoration: underline;
+	color: #6699ff;
+	text-decoration: none;
 }
 #readInner * {
 	margin-bottom: 16px;
