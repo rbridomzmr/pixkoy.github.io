@@ -10,3 +10,8 @@ body {color: #eeeeee; font-family: Microsoft YaHei Light;background: #333333;}
 	text-decoration: none;
 	font-family: Microsoft YaHei;
 }
+#readInner img {
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
