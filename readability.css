@@ -45,13 +45,3 @@ body {font-family: Microsoft YaHei Light;}
 	border-bottom: 1px solid #333;
 	font-size: 1.2em;
 }
-#readInner blockquote {
-	margin:0 !important;
-	font-style:italic;
-}
-#readInner h2,#readInner h3,#readInner h4 {
-	display:block;
-	position:relative;
-	width:100%;
-	clear:both;
-}
