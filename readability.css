@@ -1,8 +1,4 @@
 body {font-family: Microsoft YaHei Light;}
-.mobile #readInner {
-	max-width:300px;
-	overflow:hidden;
-}
 #readInner a {
 	color: blue;
 	text-decoration: underline;
