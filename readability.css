@@ -6,12 +6,7 @@ body {color: #eeeeee; font-family: Microsoft YaHei Light;background: #333333;}
 	left: 0;
 	width: 100%;
 }
-#readInner {
-	text-align: left;
-	line-height: 1.4em;
-	margin: 1em auto;
-	max-width: 800px;
-}
+
 #readInner a {
 	color: #ff6699;
 	text-decoration: none;
