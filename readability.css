@@ -1,18 +1,5 @@
 body {font-family: Microsoft YaHei Light;}
-#readInner a {
-	color: blue;
-	text-decoration: underline;
-}
-#readInner * {
-	margin-bottom: 16px;
-	border: none;
-	background: none;
-}
-#readInner p {
-	display:block;
-	width:100%;
-	clear:both;
-}
+
 #readInner img {
 	float: left;
 	margin-right: 12px;
