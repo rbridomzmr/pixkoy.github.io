@@ -1,11 +1,5 @@
 body {color: #eeeeee; font-family: Microsoft YaHei Light;background: #333333;}
-#readOverlay {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
+#readInner h1 {	line-height: 3em;}
 #readInner {
 	text-align: left;
 	line-height: 1.4em;
