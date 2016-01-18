@@ -47,8 +47,6 @@ body {font-family: Microsoft YaHei Light;}
 	width:300px;
 	overflow:auto;
 }
-#readInner code {
-}
 #readInner pre ol {
 	list-style:none;
 }
