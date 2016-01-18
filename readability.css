@@ -47,9 +47,6 @@ body {font-family: Microsoft YaHei Light;}
 	width:300px;
 	overflow:auto;
 }
-#readInner pre ol {
-	list-style:none;
-}
 #readInner h1 {
 	display: block;
 	width: 100%;
