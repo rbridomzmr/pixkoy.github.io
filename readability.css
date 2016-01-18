@@ -12,10 +12,6 @@ body {font-family: Microsoft YaHei Light;}
 	margin: 1em auto;
 	max-width: 800px;
 }
-.mobile #readInner {
-	max-width:300px;
-	overflow:hidden;
-}
 #readInner a {
 	color: blue;
 	text-decoration: underline;
