@@ -6,11 +6,6 @@ body {font-family: Microsoft YaHei Light;}
 	left: 0;
 	width: 100%;
 }
-#readInner {
-	line-height: 1.4em;
-	margin: 1em auto;
-	max-width: 1000px;
-}
 .mobile #readInner {
 	max-width:300px;
 	overflow:hidden;
