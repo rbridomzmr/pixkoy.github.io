@@ -1,12 +1,2 @@
 body {font-family: Microsoft YaHei Light;}
-#readOverlay {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-.mobile #readInner {
-	max-width:300px;
-	overflow:hidden;
-}
+
