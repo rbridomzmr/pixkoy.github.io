@@ -17,26 +17,3 @@ body {font-family: Microsoft YaHei Light;}
 	text-decoration: none;
 	font: bold;
 }
-#readInner * {
-	margin-bottom: 16px;
-	border: none;
-	background: none;
-}
-#readInner p {
-	display:block;
-	width:100%;
-	clear:both;
-}
-#readInner img {
-	float: left;
-	margin-right: 12px;
-	margin-bottom: 12px;
-}
-#readInner pre {
-	float:none;
-	width:100%;
-	clear:both;
-	font-family:Monaco,Courier,mono;
-	font-size:14px;
-	line-height:1.4em;
-}
