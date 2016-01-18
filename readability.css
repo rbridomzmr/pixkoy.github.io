@@ -13,8 +13,9 @@ body {font-family: Microsoft YaHei Light;}
 	max-width: 800px;
 }
 #readInner a {
-	color: #6699ff;
+	color: #ff6699;
 	text-decoration: none;
+	font: bold;
 }
 #readInner * {
 	margin-bottom: 16px;
