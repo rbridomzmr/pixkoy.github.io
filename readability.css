@@ -1,21 +1,6 @@
 body {font-family: Microsoft YaHei Light;}
 
-#readInner h1 {
-	display: block;
-	width: 100%;
-	border-bottom: 1px solid #333;
-	font-size: 1.2em;
-}
-#readInner blockquote {
-	margin:0 !important;
-	font-style:italic;
-}
-#readInner h2,#readInner h3,#readInner h4 {
-	display:block;
-	position:relative;
-	width:100%;
-	clear:both;
-}
+
 #readFooter {
 	width: 30px;
 	height: 15px;
