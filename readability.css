@@ -1,27 +1,5 @@
 body {font-family: Microsoft YaHei Light;}
 
-#readInner img {
-	float: left;
-	margin-right: 12px;
-	margin-bottom: 12px;
-}
-#readInner pre {
-	float:none;
-	width:100%;
-	clear:both;
-	font-family:Monaco,Courier,mono;
-	font-size:14px;
-	line-height:1.4em;
-}
-.mobile #readInner pre code {
-	width:300px;
-	overflow:auto;
-}
-#readInner code {
-}
-#readInner pre ol {
-	list-style:none;
-}
 #readInner h1 {
 	display: block;
 	width: 100%;
