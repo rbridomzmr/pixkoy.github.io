@@ -1,9 +1,9 @@
 body {color: #eeeeee; font-family: Microsoft YaHei Light;background: #333333;}
 #readInner {
 	text-align: left;
-	line-height: 1.4em;
+	line-height: 3em;
 	margin: 1em auto;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 #readInner a {
 	color: #ff6699;
