@@ -30,12 +30,7 @@ body {font-family: Microsoft YaHei Light;}
 	text-align: center;
 	background:#333;
 }
-#readFooter a {
-	color:#eee;
-	line-height:1.2em;
-	text-decoration:none;
-	display:block;
-}
+
 /* Causing problems with BBC 
 th,td {white-space: nowrap !important;padding:2px 5px !important;}
 */
