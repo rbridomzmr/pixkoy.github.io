@@ -58,7 +58,7 @@ else if(i==3){
 else if(i==4){
   i=prompt('1、视频广告　2、夜间模式　3、阅读模式　4、右键限制\n\n5、复制链接文字\n');
   if(i==1){y.setAttribute('src','http://zythum.sinaapp.com/mama2/dest/index.js');document.body.appendChild(x);}
-  else if(i==2){document.getElementById('body'.src=u+"夜间模式").body.innerHTML}
+  else if(i==2){var night=function(w){(function(d){var css='html{opacity:0.7!important;background:black!important;}body{background:white!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return}};var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node)}})(w.document); for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f)}catch(e){}}};night(window)}
   else if(i==3){y.setAttribute(s,u+'阅读模式.js');z;}
   else if(i==4){y.setAttribute(s,u+'解除限制.js');z;}
   else if(i==5){document.body.contentEditable=true;}
