@@ -77,10 +77,11 @@ else if(i==5){
       else if(i==3){window.open('http://bilibili.audio/'+f.match(/(av)([0-9]{6,8})/)[2]+'/1');}
     }
     else if(i==4){
-      i=prompt('1、超簡単♪　2、10YouTube　3、SaveMedia');
+      i=prompt('1、超簡単♪　2、10YouTube　3、SaveMedia　4、YouTube-MP4');
       if(i==1){window.open(f.replace('https://www.youtube.com/watch?v=','http://youtube-video-download.info/video/'));}
       else if(i==2){window.open(f.replace('https://www.youtube','http://www.10youtube'));}
       else if(i==3){window.open(f.replace('youtube','savemedia'));}
+      else if(i==4){y.setAttribute(s,u+'Youtube-MP4.js');z;}
     }
   }
   else if(i==2){
