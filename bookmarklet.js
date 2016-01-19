@@ -1,6 +1,6 @@
 x=''+window.getSelection();y=document.createElement('script');z=document.body.appendChild(y);u='https://pixkoy.github.io/';s='src';l=location;t=l.hostname;f=l.href;k=' ';p=t+k+x;
 if(!x)x=prompt('友情提示！您还未选择任何文字\n\n请手动输入：关键词、作品番号、神秘代码……\n');
-i=prompt('1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n+、网址导航　-、帮助更新\n');
+i=prompt('1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n+、网址导航\n');
 
 if(i==1){
   i=prompt('1、磁力搜索　2、番号作品　3、链接补全\n');
@@ -119,10 +119,4 @@ else if(i=='+'){
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
   else if(i==4){window.open('https://www.zybuluo.com/pixkoy/note/268636');}
-}
-
-else if(i=='-'){
-  i=prompt('1、检查更新　2、酱酱酱酱\n');
-  if(i==1){window.open('https://www.zybuluo.com/pixkoy/note/268636');}
-  else if(i==2){window.open('http://xiaoshuqian.pen.io/');}
 }
