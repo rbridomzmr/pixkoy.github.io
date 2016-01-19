@@ -58,7 +58,7 @@ else if(i==3){
 else if(i==4){
   i=prompt('1、视频广告　2、夜间模式　3、阅读模式　4、右键限制\n\n5、复制链接文字\n');
   if(i==1){y.setAttribute('src','http://zythum.sinaapp.com/mama2/dest/index.js');document.body.appendChild(x);}
-  else if(i==2){y.setAttribute(s,u+'夜间模式.js');z;}
+  else if(i==2){}
   else if(i==3){y.setAttribute(s,u+'阅读模式.js');z;}
   else if(i==4){y.setAttribute(s,u+'解除限制.js');z;}
   else if(i==5){document.body.contentEditable=true;}
