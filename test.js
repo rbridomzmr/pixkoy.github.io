@@ -1,1 +1,10 @@
-window.open('http://api.weibo.com/2/short_url/shorten.json?source=5786724301&url_long='+f);
+x=document.createElement('script');
+x.type='text/javascript';
+x.src=u+'test.js'+(Math.random());
+document.getElementsByTagName('head')[0].appendChild(x);
+y=document.createElement('LINK');
+y.rel='stylesheet';
+y.href='https://pixkoy.github.io/css/readability.css?x='+(Math.random());
+y.type='text/css';
+y.media='screen';
+document.getElementsByTagName('head')[0].appendChild(y);
