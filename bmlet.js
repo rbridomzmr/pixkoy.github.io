@@ -103,7 +103,7 @@ else if(i==6){
 else if(i==7){
   i=prompt('1、豆瓣电台　2、显示所有图片　3、隐藏搜索图片\n');
   if(i==1){window.open('http://douban.fm/radio','','height=186,width=420');}
-  if(i==2){i=prompt('请选择最小像素');for(i=0;i<document.images.length;i++){if(document.images[i].height>y){x+='<tr><td><img src='+document.images[i].src+'></td></tr>';}}if(x){w=window.open();w.document.write ('<table border=0 cellpadding=10>'+x+'</table>');w.document.close();}else{alert('No images!');}}
+  else if(i==2){i=prompt('请选择最小像素');for(i=0;i<document.images.length;i++){if(document.images[i].height>y){x+='<tr><td><img src='+document.images[i].src+'></td></tr>';}}if(x){w=window.open();w.document.write ('<table border=0 cellpadding=10>'+x+'</table>');w.document.close();}else{alert('No images!');}}
   else if(i==3){function toArray (c){var a, k;a=new Array;for (k=0; k < c.length; ++k)a[k]=c[k];return a;}var images, img, altText;images=toArray(document.images);for (var i=0; i < images.length; ++i){img=images[i];altText=document.createTextNode(img.alt);img.parentNode.replaceChild(altText, img);}}
 }
 
