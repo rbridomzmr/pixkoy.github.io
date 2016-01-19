@@ -56,16 +56,17 @@ else if(i==3){
 }
 
 else if(i==4){
-  i=prompt('1、视频广告　2、夜间模式　3、阅读模式　4、右键限制\n\n5、复制链接文字\n');
+  i=prompt('1、视频广告　2、网页广告　3、夜间模式　4、阅读模式\n\n5、右键限制　6、复制链接文字\n');
   if(i==1){y.setAttribute(s,'http://zythum.sinaapp.com/mama2/dest/index.js');z;}
-  else if(i==2){var night=function(w){(function(d){var css='html{opacity:0.7!important;background:black!important;}body{background:white!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return;}}var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node);}})(w.document);for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f);}catch(e){}}};night(window);}
-  else if(i==3){y.setAttribute(s,u+'阅读模式.js');z;}
-  else if(i==4){y.setAttribute(s,u+'解除限制.js');z;}
-  else if(i==5){document.body.contentEditable=true;}
+  else if(i==2){y.setAttribute(s,u+'去浮动广告.js');z;}
+  else if(i==3){var night=function(w){(function(d){var css='html{opacity:0.7!important;background:black!important;}body{background:white!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return;}}var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node);}})(w.document);for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f);}catch(e){}}};night(window);}
+  else if(i==4){y.setAttribute(s,u+'阅读模式.js');z;}
+  else if(i==5){y.setAttribute(s,u+'解除限制.js');z;}
+  else if(i==6){document.body.contentEditable=true;}
 }
 
 else if(i==5){
-  i=prompt('1、视频下载　2、Chrome 应用下载　3、网站排名数据\n\n4、迅雷离线下载\n');
+  i=prompt('1、视频下载　2、Chrome 应用下载　3、网站排名数据\n\n4、离线下载\n');
   if(i==1){
     i=prompt('1.福利狗、　2、Deturl　3、哔哩哔哩　4、YouTube\n');
     if(i==1){window.open('https://flvgo.com/download?url='+f);}
@@ -77,10 +78,11 @@ else if(i==5){
       else if(i==3){window.open('http://bilibili.audio/'+f.match(/(av)([0-9]{6,8})/)[2]+'/1');}
     }
     else if(i==4){
-      i=prompt('1、超簡単♪　2、10YouTube　3、SaveMedia');
+      i=prompt('1、超簡単♪　2、10YouTube　3、SaveMedia　4、YouTube-MP4');
       if(i==1){window.open(f.replace('https://www.youtube.com/watch?v=','http://youtube-video-download.info/video/'));}
       else if(i==2){window.open(f.replace('https://www.youtube','http://www.10youtube'));}
       else if(i==3){window.open(f.replace('youtube','savemedia'));}
+      else if(i==4){y.setAttribute(s,u+'Youtube-MP4.js');z;}
     }
   }
   else if(i==2){
@@ -89,7 +91,10 @@ else if(i==5){
     else if(i==2){window.open('http://chrome-extension-downloader.com/');}
   }
   else if(i==3){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
-  else if(i==4){y.setAttribute(s,'http://lixian.vip.xunlei.com/lxrc/js/load.js');z;}
+  else if(i==4){
+    y=prompt('1、待添加　2、迅雷离线下载\n');
+    if(y==1){y.setAttribute(s,u+'x.js');z;}
+    else if(y==2){y.setAttribute(s,'http://lixian.vip.xunlei.com/lxrc/js/load.js');z;}}
 }
 
 else if(i==6){
