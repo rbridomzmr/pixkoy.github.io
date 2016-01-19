@@ -1,1 +1,0 @@
-x=document.createElement('script');x.setAttribute('src','https://pixkoy.github.io/bmlet.js');document.body.appendChild(x);
