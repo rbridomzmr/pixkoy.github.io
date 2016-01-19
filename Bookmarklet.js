@@ -42,7 +42,7 @@ else if(i==2){
     else if(i==2){window.open('http://web.archive.org/web/*/'+f);}
   }
 }
-/*
+
 else if(i==3){
   i=prompt('1、谷歌翻译　2、百度翻译　3、有道翻译　4、必应翻译\n\n5、沪江小Ｄ　6、爱词霸　　7、汉典　　　8、繁转简体\n');
   if(i==1){if(x){window.open('https://translate.google.com/#auto/zh-CN/'+x);}else{window.open('https://translate.google.com/translate?u='+f);}}
@@ -126,4 +126,3 @@ else if(i=='-'){
   if(i==1){window.open('https://www.zybuluo.com/pixkoy/note/268636');}
   else if(i==2){window.open('http://xiaoshuqian.pen.io/');}
 }
-*/
