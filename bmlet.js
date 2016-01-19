@@ -97,7 +97,18 @@ else if(i==6){
   if(i==1){x=prompt('请选择分类：');if(x){window.open('http://'+x+'.saved.io/'+f);}else{window.open('http://saved.io/'+f);}}
   else if(i==2){var a=window,b=document,c=encodeURIComponent,d=a.open('https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk='+c(b.location)+'&title='+c(b.title),'','left=500,top=85,height=470,width=560');}
   else if(i==3){window.open('http://chart.apis.google.com/chart?cht=qr&chs=500x500&chl='+encodeURIComponent(f),'Qr code','top=100,left=600,width=500,height=500,status=yes');}
-  else if(i==4){y.setAttribute(s,u+'test.js');z;}
+  else if(i==4){
+    x=document.createElement('script');
+x.type='text/javascript';
+x.src=u+'test.js'+(Math.random());
+document.getElementsByTagName('head')[0].appendChild(x);
+y=document.createElement('LINK');
+y.rel='stylesheet';
+y.href='https://pixkoy.github.io/css/readability.css?x='+(Math.random());
+y.type='text/css';
+y.media='screen';
+document.getElementsByTagName('head')[0].appendChild(y);
+  }
 }
 
 else if(i==7){
