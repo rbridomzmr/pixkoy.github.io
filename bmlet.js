@@ -97,18 +97,7 @@ else if(i==6){
   if(i==1){x=prompt('请选择分类：');if(x){window.open('http://'+x+'.saved.io/'+f);}else{window.open('http://saved.io/'+f);}}
   else if(i==2){var a=window,b=document,c=encodeURIComponent,d=a.open('https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk='+c(b.location)+'&title='+c(b.title),'','left=500,top=85,height=470,width=560');}
   else if(i==3){window.open('http://chart.apis.google.com/chart?cht=qr&chs=500x500&chl='+encodeURIComponent(f),'Qr code','top=100,left=600,width=500,height=500,status=yes');}
-  else if(i==4){
-x=document.createElement('SCRIPT');
-x.type='text/javascript';
-x.src='http://pixkoy.github.io/test.js?x='+(Math.random());
-document.getElementsByTagName('head')[0].appendChild(x);
-y=document.createElement('LINK');
-y.rel='stylesheet';
-y.href='https://pixkoy.github.io/css/readability.css?x='+(Math.random());
-y.type='text/css';
-y.media='screen';
-document.getElementsByTagName('head')[0].appendChild(y);
-  }
+  else if(i==4){if(f.match(5786724301)){document.write('<style type="text/css">body{background:#333;color:#f69;font-family:Microsoft YaHei Light;font-size:10em;margin:0px auto;text-align:center;}</style></br>'+document.body.innerHTML.match(/(short":")(.{15,25})(",")/)[2]);}else{window.open('http://api.weibo.com/2/short_url/shorten.json?source=5786724301&url_long='+f);}}
 }
 
 else if(i==7){
