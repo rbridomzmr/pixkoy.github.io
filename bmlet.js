@@ -65,7 +65,7 @@ else if(i==4){
 }
 
 else if(i==5){
-  i=prompt('1、视频下载　2、Chrome 应用下载　3、网站排名数据\n\n4、迅雷离线下载\n');
+  i=prompt('1、视频下载　2、Chrome 应用下载　3、网站排名数据\n\n4、离线下载\n');
   if(i==1){
     i=prompt('1.福利狗、　2、Deturl　3、哔哩哔哩　4、YouTube\n');
     if(i==1){window.open('https://flvgo.com/download?url='+f);}
@@ -90,7 +90,10 @@ else if(i==5){
     else if(i==2){window.open('http://chrome-extension-downloader.com/');}
   }
   else if(i==3){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
-  else if(i==4){y.setAttribute(s,'http://lixian.vip.xunlei.com/lxrc/js/load.js');z;}
+  else if(i==4){
+    y=prompt('1、磁力离线下载　2、迅雷离线下载\n');
+    if(y==1){y.setAttribute(s,u+'磁力离线下载.js');z;}
+    else if(y==2){y.setAttribute(s,'http://lixian.vip.xunlei.com/lxrc/js/load.js');z;}}
 }
 
 else if(i==6){
