@@ -1,6 +1,6 @@
 // Japan1
 
-var proxy = "PROXY 140.205.140.234:25;";
+var proxy = "PROXY 140.205.140.234:21;";
 
 var domains = {
   "onedrive.live.com": 1,
