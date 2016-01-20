@@ -1,6 +1,6 @@
 x=''+window.getSelection();y=document.createElement('script');z=document.body.appendChild(y);u='https://pixkoy.github.io/';s='src';l=location;t=l.hostname;f=l.href;k=' ';p=t+k+x;
 if(!x)x=prompt('请输入：关键词、作品番号、神秘代码……\n');
-i=prompt('1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n+、网址导航\n');
+i=prompt('1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n9、科学上网　+、网址导航\n');
 
 if(i==1){
   i=prompt('1、磁力搜索　2、番号作品　3、链接补全\n');
