@@ -118,7 +118,7 @@ else if(i==8){
   else if(i==2){y.setAttribute(s,'http://www.printwhatyoulike.com/static/pagezipper/pagezipper_10.js');z;}
 }
 
-else if(i==8){alert(非公开);}
+else if(i==9){alert(非公开);}
 
 else if(i=='+'){
   i=prompt('1、百度、　2、Google　3、网易云音乐\n');
