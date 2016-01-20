@@ -1,13 +1,9 @@
-// Japan1
+// http://www.72blog.com
 
-var proxy = "PROXY 140.205.140.234:21;";
+var proxy = "PROXY s.72blog.com:25;";
 
 var domains = {
-  "onedrive.live.com": 1,
-  "blogsmithmedia.com": 1,
-  "keepvid.com": 1,
-  "unblockdmm.com": 1,
-  "lvv2.com": 1,
+  "raw.githubusercontent.com": 1,
   "iobit.com": 1,
   "telegram.org": 1,
   "abc.xyz": 1,
@@ -834,8 +830,6 @@ var domains = {
   "gimpshop.com": 1, 
   "girlbanker.com": 1, 
   "git-scm.com": 1, 
-  "github.com": 1, 
-  "github.io": 1, 
   "givemesomethingtoread.com": 1, 
   "glennhilton.com": 1, 
   "globaljihad.net": 1, 
@@ -873,7 +867,9 @@ var domains = {
   "google.nl": 1,
   "google.com": 1, 
   "google.com.au": 1,
+  "google.com.hk": 1,
   "google.com.my": 1,
+  "google.com.tw": 1,
   "googleadservices.com": 1, 
   "googleapis.com": 1, 
   "googlecode.com": 1, 
@@ -1125,7 +1121,6 @@ var domains = {
   "izles.net": 1, 
   "jackjia.com": 1, 
   "japan-whores.com": 1, 
-  "javpop.com": 1, 
   "jayparkinsonmd.com": 1, 
   "jbtalks.cc": 1, 
   "jbtalks.com": 1, 
@@ -2594,8 +2589,13 @@ var domains = {
   "zsrhao.com": 1, 
   "zuo.la": 1, 
   "zuola.com": 1, 
-  "zvereff.com": 1, 
+  "github.com": 1, 
+  "zvereff.com": 1,
+  "digitalocean.com": 1,
+  "fastly.net": 1,
   "zyzc9.com": 1
+  
+  
 };
 
 var direct = 'DIRECT;';
@@ -2603,17 +2603,17 @@ var direct = 'DIRECT;';
 var hasOwnProperty = Object.hasOwnProperty;
 
 function FindProxyForURL(url, host) {
-    if (host == "www.haosou.com") {
-        return "PROXY 360.itzmx.com:80";
+    if (host == "www.haosou1.com") {
+        return "PROXY 3601.itzmx1.com:80";
     }
 
     var suffix;
     var pos = host.lastIndexOf('.');
     while(1) {
         suffix = host.substring(pos + 1);
-        if (suffix == "360.cn")
+        if (suffix == "3601.cn")
             if (url.indexOf('http://') == 0)
-                return "PROXY 360.itzmx.com:80";
+                return "PROXY 3601.itzmx1.com:80";
         if (hasOwnProperty.call(domains, suffix)) {
             return proxy;
         }
