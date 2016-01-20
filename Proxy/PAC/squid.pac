@@ -2590,6 +2590,7 @@ var domains = {
   "zuo.la": 1, 
   "zuola.com": 1, 
   "github.com": 1, 
+  "github.io": 1, 
   "zvereff.com": 1,
   "digitalocean.com": 1,
   "fastly.net": 1,
