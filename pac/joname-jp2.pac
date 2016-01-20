@@ -1,6 +1,6 @@
-// Japan1
+// Japan2
 
-var proxy = "PROXY 45.32.44.243:25;";
+var proxy = "PROXY 45.32.40.129:25;";
 
 var domains = {
   "onedrive.live.com": 1,
@@ -835,7 +835,6 @@ var domains = {
   "girlbanker.com": 1, 
   "git-scm.com": 1, 
   "github.com": 1, 
-  "github.io": 1, 
   "givemesomethingtoread.com": 1, 
   "glennhilton.com": 1, 
   "globaljihad.net": 1, 
@@ -1125,7 +1124,6 @@ var domains = {
   "izles.net": 1, 
   "jackjia.com": 1, 
   "japan-whores.com": 1, 
-  "javpop.com": 1, 
   "jayparkinsonmd.com": 1, 
   "jbtalks.cc": 1, 
   "jbtalks.com": 1, 
