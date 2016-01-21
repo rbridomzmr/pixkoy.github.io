@@ -1,1 +1,0 @@
-function FindProxyForURL(url, host) { return "PROXY 45.32.40.129:25; DIRECT"; }
