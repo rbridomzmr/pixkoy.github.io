@@ -1005,7 +1005,7 @@ var domains = {
 "philly.com":1
 };
 
-var proxy = 'PROXY proxy.example.com:8080;', direct = 'DIRECT;';
+var proxy = 'PROXY server01.pac.itzmx.com:25;', direct = 'DIRECT;';
 
 function FindProxyForURL(url, host) {
   var pos;
