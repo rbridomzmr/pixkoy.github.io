@@ -1002,7 +1002,7 @@ var domains = {
   "darpa.mil": 1, 
   "dotsub.com": 1, 
   "twitlonger.com": 1, 
-  "philly.com": 1 
+  "philly.com": 1, 
 };
 
 var proxy = "__PROXY__";
