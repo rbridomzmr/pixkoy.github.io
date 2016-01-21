@@ -1,4 +1,4 @@
-﻿{
+{
 "configs" : [
   {
 "server" : "hk02-54.ssv7.net",
@@ -136,5 +136,5 @@
 "isDefault" : false,
 "localPort" : 1080,
 "pacUrl" : null,
-"useOnlinePac" : true,
+"useOnlinePac" : false,
 "availabilityStatistics" : false}
