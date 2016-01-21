@@ -118,7 +118,7 @@ else if(i==8){
   else if(i==2){y.setAttribute(s,'http://www.printwhatyoulike.com/static/pagezipper/pagezipper_10.js');z;}
 }
 
-else if(i==9){alert('未公开');}
+else if(i==9){alert('　　　待更新、免费账号、可看YouTube 4K\n\n1、PAC　2、DNS　3、SwitchyOmega\n\n4、Shadowsocks　5、XX-net　6、Heroku　\n\n７、蓝灯优化　8、赛风　９、检测查询　0、教程推荐\n');}
 
 else if(i=='+'){
   i=prompt('1、百度、　2、Google　3、网易云音乐\n');
