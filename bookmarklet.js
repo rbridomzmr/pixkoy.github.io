@@ -126,7 +126,7 @@ else if(i=='+'){
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
 }
-/*
+
 else if(i=='#'){window.open('http://www.wndflb.com/forum.php?mod=post&action=newthread&fid=2');}
 
 else if(i=='$'){window.open('http://www.wndflb.com/home.php?mod=spacecp&ac=favorite&type=thread&id=40134&formhash=53735c96');}
@@ -134,4 +134,3 @@ else if(i=='$'){window.open('http://www.wndflb.com/home.php?mod=spacecp&ac=favor
 else if(i=='*'){window.open('http://www.wndflb.com/thread-40134-1-1.html');}
 
 else if(i=='@'){window.open('http://www.wndflb.com/forum.php?mod=post&action=reply&fid=2&tid=40134&reppost=824791&extra=page%3D1&page=1');}
-*/
