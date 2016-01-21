@@ -1,0 +1,140 @@
+﻿{
+"configs" : [
+  {
+"server" : "hk02-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 香港"}
+,
+  {
+"server" : "jp01-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 日本 1"}
+,
+  {
+"server" : "jp06-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 日本 2"}
+,
+  {
+"server" : "us01-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 美国 1"}
+,
+  {
+"server" : "us02-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 美国 2"}
+,
+  {
+"server" : "sg01-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 新加坡 1"}
+,
+  {
+"server" : "sg02-54.ssv7.net",
+"server_port" : 24548,
+"password" : "zSnsazyumwpe",
+"method" : "aes-256-cfb",
+"remarks" : "免费 ssv 新加坡 2"}
+,
+  {
+"server" : "ss.yomoe.net",
+"server_port" : 60000,
+"password" : "4518792",
+"method" : "aes-256-cfb",
+"remarks" : "免费 Yomoe 美国 1"}
+,
+  {
+"server" : "ss1.yomoe.net",
+"server_port" : 60000,
+"password" : "4518792",
+"method" : "aes-256-cfb",
+"remarks" : "免费 Yomoe 美国 2"}
+,
+  {
+"server" : "104.250.144.10",
+"server_port" : 27957,
+"password" : "29790017",
+"method" : "aes-256-cfb",
+"remarks" : "免费 分享 美国 1"}
+,
+  {
+"server" : "baitutime.xyz",
+"server_port" : 443,
+"password" : "@nklx^eijhFiZvpO!&S!6!Y$L5NbVrLqAu4@pzWKjiq*cs@VUcYr76IIR!dU#^dcXSpU7c3^3%%lB^%g9Fwa17zX0^4JwVN2wqLbOyhQ7FXebeBLNyZ9",
+"method" : "aes-256-cfb",
+"remarks" : "免费 分享 美国 2"}
+,
+  {
+"server" : "104.129.0.236",
+"server_port" : 45140,
+"password" : "5VcIF9E18n",
+"method" : "aes-256-cfb",
+"remarks" : "免费 认知 美国"}
+,
+  {
+"server" : "216.189.158.147",
+"server_port" : 34567,
+"password" : "dou-bi.com34567",
+"method" : "aes-256-cfb",
+"remarks" : "免费 逗比 美国"}
+,
+  {
+"server" : "209.148.80.20",
+"server_port" : 8989,
+"password" : "bannedbook.org",
+"method" : "aes-256-cfb",
+"remarks" : "免费 禁书 美国"}
+,
+  {
+"server" : "JP3.ISS.TF",
+"server_port" : 443,
+"password" : "86248703",
+"method" : "aes-256-cfb",
+"remarks" : "免费 时效 日本"}
+,
+  {
+"server" : "HK2.ISS.TF",
+"server_port" : 8989,
+"password" : "60704937",
+"method" : "aes-256-cfb",
+"remarks" : "免费 时效 香港"}
+,
+  {
+"server" : "US1.ISS.TF",
+"server_port" : 443,
+"password" : "19463505",
+"method" : "aes-256-cfb",
+"remarks" : "免费 时效 美国 1"}
+,
+  {
+"server" : "free.hishadowsocks.com",
+"server_port" : 10000,
+"password" : "528748",
+"method" : "aes-256-cfb",
+"remarks" : "免费 时效 美国 2"}
+,
+
+],
+"strategy" : null,
+"index" : 0,
+"global" : false,
+"enabled" : false,
+"shareOverLan" : false,
+"isDefault" : false,
+"localPort" : 1080,
+"pacUrl" : null,
+"useOnlinePac" : true,
+"availabilityStatistics" : false}
