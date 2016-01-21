@@ -1,7 +1,6 @@
 // jp1
 
 var proxy = "PROXY 45.32.40.129:25;";
-var proxy = "PROXY 209.148.80.20:8989;";
 
 var domains = {
   "share.dmhy.org": 1,
