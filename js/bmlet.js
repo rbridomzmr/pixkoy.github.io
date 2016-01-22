@@ -67,7 +67,7 @@ else if(i==4){
 }
 
 else if(i==5){
-  i=prompt('1、视频下载　2、Chrome 应用下载　3、网站排名数据\n\n4、离线下载\n');
+  i=prompt('1、视频下载　2、Chrome 应用下载　3、网站排名数据\n\n4、离线下载　5、解除百度网盘限制\n');
   if(i==1){
     i=prompt('1.福利狗、　2、Deturl　3、哔哩哔哩　4、YouTube\n');
     if(i==1){window.open('https://flvgo.com/download?url='+f);}
@@ -96,6 +96,7 @@ else if(i==5){
     y=prompt('1、待添加　2、迅雷离线下载\n');
     if(y==1){y.setAttribute(s,u+'x.js');z;}
     else if(y==2){y.setAttribute(s,'http://lixian.vip.xunlei.com/lxrc/js/load.js');z;}}
+  else if(i==5){window.navigator.__defineGetter__('platform',function(){return''})}
 }
 
 else if(i==6){
