@@ -1,0 +1,1 @@
+javascript:y=document.createElement('script');y.setAttribute('src','https://pixkoy.github.io/js/书签/bmlet.js');document.body.appendChild(y);
