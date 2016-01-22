@@ -1,4 +1,4 @@
-x=''+window.getSelection();y=document.createElement('script');z=document.body.appendChild(y);u='https://pixkoy.github.io/';s='src';l=location;t=l.hostname;f=l.href;k=' ';p=t+k+x;
+x=''+window.getSelection();y=document.createElement('script');z=document.body.appendChild(y);u='https://pixkoy.github.io/js/';s='src';l=location;t=l.hostname;f=l.href;k=' ';p=t+k+x;
 if(!x)x=prompt('请输入：关键词、作品番号、神秘代码……\n');
 i=prompt('1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n9、科学上网　+、网址导航\n');
 
@@ -44,7 +44,7 @@ else if(i==2){
 }
 
 else if(i==3){
-  i=prompt('1、谷歌翻译　2、百度翻译　3、有道翻译　4、必应翻译\n\n5、沪江小Ｄ　6、爱词霸　　7、汉典　　　8、繁转简体\n');
+  i=prompt('1、谷歌翻译　2、百度翻译　3、有道翻译　4、必应翻译\n\n5、沪江小Ｄ　6、爱词霸　　7、汉典　　　8、必应划词　\n\n9、繁转简体\n');
   if(i==1){if(x){window.open('https://translate.google.com/#auto/zh-CN/'+x);}else{window.open('https://translate.google.com/translate?u='+f);}}
   else if(i==2){window.open('http://fanyi.baidu.com/transpage?query='+f+'&render=1');}
   else if(i==3){y.setAttribute(s,'http://fanyi.youdao.com/web2/seed.js');z;}
@@ -52,7 +52,8 @@ else if(i==3){
   else if(i==5){y.setAttribute(s,'http://dict.hujiang.com/app/js/dict_ajax.js');z;}
   else if(i==6){var ICIBA_HUAYI_ALLOW=1,iciba_huaci_url="http://open.iciba.com/huaci/";void function(){if(!document.getElementById("icIBahyI-yi")){var a=document.createElement("div");a.id="icIBahyI-yi",a.style.display="none",a.style.zIndex="4294967295",document.body.insertBefore(a,document.body.firstChild);var i=document.createElement("div");i.id="icIBahyI-main_box",i.style.display="none",document.body.insertBefore(i,document.body.firstChild);var e='<link type="text/css" rel="stylesheet" href="'+iciba_huaci_url+'mini.css" /><object style="height:0px;width:0px;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="0" height="0" id="asound_hanci" align="absmiddle"><param name="allowScriptAccess" value="always" /><param name="movie" value="http://www.iciba.com/top/asound.swf" /><param name="quality" value="high" /><embed src="http://www.iciba.com/top/asound.swf" quality="high" width="0" height="0" name="asound_hanci" align="absmiddle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object><div class="icIBahyI-main_title" id="icIBahyI-main_title" ><a href="javascript:;" id="icIBahyI-gb" class="icIBahyI-gb" title="关闭"></a><a href="javascript:;" id="icIBahyI-dq" class="icIBahyI-dq2" title="点击固定结果"></a>爱词霸 即划即译<div class="icIBahyI-sz_list" id="icIBahyI-sz_list"><a href="javascript:;">关闭即划即译</a><a href="#" target="_blank">反馈</a><a href="#" style="border:none;" target="_blank">帮助</a><span class="icIBahyI-j icIBahyI-tl"></span><span class="icIBahyI-j icIBahyI-tr"></span><span class="icIBahyI-j icIBahyI-bl"></span><span class="icIBahyI-j icIBahyI-br"></span></div></div><div class="icIBahyI-search"><input id="ICIBA_HUAYI_input" name="" type="text" onkeydown="ICIBA_HUAYI_KEYDOWN(event);"><a href="javascript:;" class="icIBahyI-sear" onclick="ICIBA_HUAYI_searchword()" >查 词</a></div><span class="icIBahyI-contTop"></span><div class="icIBahyI-loading" id="loading"></div><div class="icIBahyI-main_cont" id="icIBahyI-main_cont"></div><div class="icIBahyI-CB" id="icIBahyI-scbiframe" style="display:none"></div><div id="ICIBA_TOO_LONG" style="height:150px" class="icIBahyI-footer">您划取的内容太长，建议您去爱词霸<a href="http://fy.iciba.com">翻译</a>页面。</div><span class="icIBahyI-contB"></span>';document.getElementById("icIBahyI-main_box").innerHTML=e;var c=document.createElement("script");c.setAttribute("src",iciba_huaci_url+"dict.php"),document.body.appendChild(c);var i=document.createElement("div");i.id="icIBahyI-USER_LOGIN",i.className="icIBahyI-USER_LOGIN",i.style.display="none",document.body.insertBefore(i,document.body.firstChild);var t=document.createElement("script");t.setAttribute("src",iciba_huaci_url+"ICIBA_HUACI_COM.js"),document.body.appendChild(t)}}();}
   else if(i==7){y.setAttribute(s,'http://www.zdic.net/tools/xzsy');z;}
-  else if(i==8){y.setAttribute(s,u+'繁转简体.js');z;}
+  else if(i==8){y.setAttribute(s,u+'必应划词翻译.js');z;}
+  else if(i==9){y.setAttribute(s,u+'繁转简体.js');z;}
 }
 
 else if(i==4){
