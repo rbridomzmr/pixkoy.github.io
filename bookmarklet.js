@@ -1,6 +1,6 @@
 x=''+window.getSelection();y=document.createElement('script');z=document.body.appendChild(y);u='https://pixkoy.github.io/';s='src';l=location;t=l.hostname;f=l.href;k=' ';p=t+k+x;
 if(!x)x=prompt('请输入：关键词、作品番号、神秘代码……\n');
-i=prompt("1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n9、科学上网　+、网址导航　-、慢慢更新　-、稍安勿躁\n\n~、酱酱酱酱　^、今日福利　!、你还想安静地做书签吗？\n\n#、发贴啦　　$、支持你　　*、给好评　　@、有话说\n");
+i=prompt("1、磁力番号　2、学术搜索　3、词典翻译　4、文字视觉\n\n5、下载解析　6、收藏分享　7、音乐图片　8、效率工具\n\n9、科学上网　+、网址导航　-、慢慢更新　-、稍安勿躁\n");
 
 if(i==1){
   i=prompt('1、磁力搜索　2、番号作品　3、链接补全\n');
@@ -126,11 +126,3 @@ else if(i=='+'){
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
 }
-
-else if(i=='#'){window.open('http://www.wndflb.com/forum.php?mod=post&action=newthread&fid=2');}
-
-else if(i=='$'){window.open('http://www.wndflb.com/home.php?mod=spacecp&ac=favorite&type=thread&id=40134&formhash=53735c96');}
-
-else if(i=='*'){window.open('http://www.wndflb.com/thread-40134-1-1.html');}
-
-else if(i=='@'){window.open('http://www.wndflb.com/forum.php?mod=post&action=reply&fid=2&tid=40134&reppost=824791&extra=page%3D1&page=1');}
