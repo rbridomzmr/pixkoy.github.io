@@ -57,13 +57,14 @@ else if(i==3){
 }
 
 else if(i==4){
-  i=prompt('1、视频广告　2、网页广告　3、夜间模式　4、阅读模式\n\n5、右键限制　6、复制链接文字\n');
+  i=prompt('1、视频广告　2、网页广告　3、夜间模式　4、阅读模式\n\n5、右键限制　6、复制链接文字\n\n7、临时笔记');
   if(i==1){y.setAttribute(s,'http://zythum.sinaapp.com/mama2/dest/index.js');z;}
   else if(i==2){y.setAttribute(s,u+'去浮动广告.js');z;}
   else if(i==3){var night=function(w){(function(d){var css='html{opacity:0.7!important;background:black!important;}body{background:white!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return;}}var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node);}})(w.document);for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f);}catch(e){}}};night(window);}
   else if(i==4){y.setAttribute(s,u+'阅读模式.js');z;}
   else if(i==5){y.setAttribute(s,u+'解除限制.js');z;}
   else if(i==6){document.body.contentEditable=true;}
+  else if(i==7){y.setAttribute(s,u+'note.js');z;}
 }
 
 else if(i==5){
