@@ -126,7 +126,7 @@ else if(i==8){alert('未开放');}
 
 else if(i==9){alert('未开放');}
 
-else if(i==0){alert('未开放');}
+else if(i===''){alert('未开放');}
 
 else if(i=='+'){
   i=prompt('1、百度、　2、Google　3、网易云音乐　4、Alexa百万站点\n');
@@ -137,3 +137,5 @@ else if(i=='+'){
 }
 
 else if(i=='-'){alert('禁止访问');}
+
+else{alert('404 Not Found');}
