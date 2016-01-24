@@ -1,4 +1,4 @@
-x=''+window.getSelection();y=document.createElement('script');z=document.body.appendChild(y);u='https://pixkoy.github.io/js/';s='src';l=location;t=l.hostname;f=l.href;k=' ';p=t+k+x;
+x=''+window.getSelection(); y=document.createElement('script'); z=document.body.appendChild(y); u='https://pixkoy.github.io/js/'; s='src'; l=location; t=l.hostname; f=l.href; k=' '; p=t+k+x;
 if(!x)x=prompt('请输入：关键词、作品番号、神秘代码……\n');
 i=prompt('1、磁力搜索　2、求学问道　3、文字阅读　4、音乐图片\n\n5、收藏分享　6、下载解析　7、功能效率　8、科学上网\n\n9、动漫次元　0、福利关注　+、网址导航　-、私人定制\n');
 
