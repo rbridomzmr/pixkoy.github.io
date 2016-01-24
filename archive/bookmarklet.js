@@ -129,7 +129,7 @@ else if(i==9){alert('未开放');}
 else if(i==='0'){alert('少年、福利已消失');}
 
 else if(i=='+'){
-  i=prompt('1、百度、　2、Google　3、网易云音乐　4、Alexa百万站点\n');
+  i=prompt('1、百度　2、Google　3、网易云音乐　4、Alexa百万站点\n');
   if(i==1){window.open('https://www.baidu.com/');}
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
