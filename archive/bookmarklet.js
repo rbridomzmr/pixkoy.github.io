@@ -53,7 +53,7 @@ else if(i==3){
     else if(i==8){y.setAttribute(s,'http://labs.microsofttranslator.com/bookmarklet/default.aspx?f=js&to=zh-chs');z;}
     else if(i==9){y.setAttribute(s,u+'文字/翻译/繁体转换简体.js');z;}
   }
-  else if(i==2){y.setAttribute(s,u+'文字/笔记/网页笔记.js');z;}
+  else if(i==2){alert('按住Shift+鼠标左键单击\n');y.setAttribute(s,u+'文字/笔记/网页笔记.js');z;}
   else if(i==3){y.setAttribute(s,u+'文字/阅读/排版/简洁模式.js');z;}
   else if(i==4){var night=function(w){(function(d){var css='html{opacity:0.7!important;background:black!important;}body{background:white!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return;}}var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node);}})(w.document);for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f);}catch(e){}}};night(window);}
   else if(i==5){y.setAttribute(s,u+'功效/限制/解除右键限制.js');z;}
@@ -122,19 +122,18 @@ else if(i==7){
   else if(i==3){y.setAttribute(s,'http://www.baidu.com/olime/bdime_open.js');z;}
 }
 
-else if(i==8){alert('未开放');}
+else if(i==8){alert('服务已关闭');}
 
 else if(i==9){alert('未开放');}
 
-else if(i==='0'){alert('未开放');}
+else if(i==='0'){alert('少年、福利已消失');}
 
 else if(i=='+'){
-  i=prompt('1、百度、　2、Google　3、网易云音乐　4、千山导航\n\n-、Alexa百万站点\n');
+  i=prompt('1、百度、　2、Google　3、网易云音乐　4、Alexa百万站点\n');
   if(i==1){window.open('https://www.baidu.com/');}
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
-  else if(i==4){window.open('https://pixkoy.github.io/nav/qianshan.co/');}
-  else if(i=='-'){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
+  else if(i==4){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
 }
 
 else if(i=='-'){alert('禁止访问');}
