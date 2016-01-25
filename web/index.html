@@ -1,12 +1,70 @@
 <html>
   <head>
     <title>index</title>
-    <link rel="stylesheet" href="css/bootstrap.css.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/buttons.css">
+  	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="按钮特效/css/reset.css"> <!-- CSS reset -->
+  	<link rel="stylesheet" href="按钮特效/css/style.css"> <!-- Resource style -->
+    <style type="text/css">
+      .box {
+        width: 1000px;
+        height: 100px;
+        margin: auto;
+      }
+      .button {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .center1 {
+        display: block;
+        text-align: center;
+      }
+      p {
+        font-family: Microsoft YaHei;
+      }
+    </style>
   </head>
   <body>
-<a href="http://www.bootcss.com/" class="button button-tiny">Go</a>
-    <script src="js/jquery.js"></script>
+    <div>
+      </br>
+    </div>
+    <div class="box">
+      <span class="center1">
+        <a href="https://www.google.com/" id="32" class="button button-3d button-primary button-rounded">Google</a>
+        <a href="https://www.baidu.com/" id="66" class="button button-3d button-caution"><i class="fa fa-camera"></i>百度</a>
+        <a href="https://www.tulingss.com/" id="84"class="button button-3d button-royal">图灵</a>
+      </span>
+    </div>
+    <div class="box">
+      <span class="center1">
+        <a href="http://www.douban.com/" id="68" class="button button-3d button-primary button-rounded">豆瓣</a>
+        <a href="http://www.bilibili.com/" id="73" class="button button-3d button-caution"><i class="fa fa-camera"></i>哔哩哔哩</a>
+        <a href="http://music.163.com/" id="87"class="button button-3d button-royal">网易云音乐</a>
+        <a href="https://www.youtube.com/" id="89" class="button button-3d button-primary button-rounded">YouTube</a>
+        <a href="https://gabrielecirulli.github.io/2048/" id="98" class="button button-3d button-caution"><i class="fa fa-camera"></i>2048</a>
+        <a href="https://www.zhihu.com/" id="90" class="button button-3d button-royal">知乎</a>
+      </span>
+    </div>
+	<section class="cd-section">
+
+		<div class="cd-modal-action">
+			<a href="#0" style="line-height: 3em;font-family: Microsoft YaHei;" class="btn" data-type="modal-trigger">快 捷 键</a>
+			<span class="cd-modal-bg"></span>
+		</div> <!-- cd-modal-action -->
+		<div class="cd-modal">
+			<div class="cd-modal-content">
+			  <p class="">Google　　　空格</p>
+			  <p class="">哔哩哔哩 　　　i</p>
+			  <p class="">其余　　　　首字母</p>
+			</div> <!-- cd-modal-content -->
+		</div> <!-- cd-modal -->
+		<a href="#0" class="cd-modal-close">Close</a>
+	  </section> <!-- .cd-section -->
+	  <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="按钮特效/js/velocity.min.js"></script>
+    <script src="按钮特效/js/main.js"></script> <!-- Resource jQuery -->
     <script> document.onkeydown = function(){window.open(href = document.getElementById(event.keyCode).href);} </script>
 </body>
 </html>
