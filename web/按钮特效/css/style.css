@@ -102,8 +102,6 @@ header h1 {
   height: 60px;
   pointer-events: none;
   background: transparent;
-  background: -webkit-linear-gradient( bottom , #34383c, rgba(52, 56, 60, 0));
-  background: linear-gradient(to top, #34383c, rgba(52, 56, 60, 0));
 }
 .cd-modal .cd-modal-content {
   height: 100%;
@@ -148,7 +146,7 @@ header h1 {
 .cd-modal-action .btn, .cd-modal-action .cd-modal-bg {
   display: inline-block;
   height: 4em;
-  background-color: #34383c;
+  background-color: #ff6699;
 }
 .cd-modal-action .btn {
   width: 12.5em;
