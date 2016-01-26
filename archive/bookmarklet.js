@@ -129,11 +129,12 @@ else if(i==9){alert('未开放');}
 else if(i==='0'){alert('少年、福利已消失');}
 
 else if(i=='+'){
-  i=prompt('1、百度　2、Google　3、网易云音乐　4、Alexa百万站点\n');
+  i=prompt('1、百度　2、Google　3、网易云音乐　4、快速访问\n\n-、Alexa百万站点\n');
   if(i==1){window.open('https://www.baidu.com/');}
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
-  else if(i==4){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
+  else if(i==4){window.open('http://mynavsite.github.io/');}
+  else if(i=='-'){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
 }
 
 else if(i=='-'){alert('禁止访问');}

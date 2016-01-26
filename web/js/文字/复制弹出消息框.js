@@ -1,0 +1,1 @@
+document.body.oncopy=function(){alert("¸´ÖÆ³É¹¦£¡");}

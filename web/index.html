@@ -4,73 +4,35 @@
     <link rel="icon" href="image/photo.jpg">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/buttons.css">
-  	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-  	<link rel="stylesheet" href="按钮特效/css/reset.css"> <!-- CSS reset -->
-  	<link rel="stylesheet" href="按钮特效/css/style.css"> <!-- Resource style -->
-    <style type="text/css">
-      .box {
-        width: 1000px;
-        height: 100px;
-        margin: 0 auto;
-        text-align: center;
-      }
-      .button {
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-      .center1 {
-        display: block;
-        text-align: center;
-      }
-      p span {
-        display: inline-block;
-        width: 200px;
-
-        font-family: Microsoft YaHei Light;
-      }
-    </style>
+    <link rel="stylesheet" href="css/pixkoy.css">
   </head>
   <body>
-    <div>
-      </br>
-    </div>
     <div class="box">
-      <span class="center1">
-        <a href="https://www.google.com/" target="_blank" id="32" class="button button-3d button-primary button-rounded">Google</a>
-        <a href="https://www.baidu.com/" target="_blank" id="66" class="button button-3d button-caution"><i class="fa fa-camera"></i>百度</a>
-        <a href="https://www.tulingss.com/" target="_blank" id="84"class="button button-3d button-royal">图灵</a>
-      </span>
+      <div class="site">
+        <span class="url">
+          <a href="https://www.google.com/" target="_blank" id="32" class="button button-3d button-primary button-rounded">Google</a>
+          <a href="https://www.baidu.com/" target="_blank" id="66" class="button button-3d button-caution"><i class="fa fa-camera"></i>百度</a>
+          <a href="https://www.tulingss.com/" target="_blank" id="84"class="button button-3d button-royal">图灵</a>
+        </span>
+      </div>
+      <div class="site">
+        <span class="url">
+          <a href="http://www.douban.com/" target="_blank" id="68" class="button button-3d button-primary button-rounded">豆瓣</a>
+          <a href="http://www.bilibili.com/" target="_blank" id="73" class="button button-3d button-caution"><i class="fa fa-camera"></i>哔哩哔哩</a>
+          <a href="http://music.163.com/" target="_blank" id="87"class="button button-3d button-royal">网易云音乐</a>
+          <a href="https://www.youtube.com/" target="_blank" id="89" class="button button-3d button-primary button-rounded">YouTube</a>
+          <a href="https://gabrielecirulli.github.io/2048/" target="_blank" id="98" class="button button-3d button-caution"><i class="fa fa-camera"></i>2048</a>
+          <a href="https://www.zhihu.com/" target="_blank" id="90" class="button button-3d button-royal">知乎</a>
+        </span>
+      </div>
     </div>
-    <div class="box">
-      <span class="center1">
-        <a href="http://www.douban.com/" target="_blank" id="68" class="button button-3d button-primary button-rounded">豆瓣</a>
-        <a href="http://www.bilibili.com/" target="_blank" id="73" class="button button-3d button-caution"><i class="fa fa-camera"></i>哔哩哔哩</a>
-        <a href="http://music.163.com/" target="_blank" id="87"class="button button-3d button-royal">网易云音乐</a>
-        <a href="https://www.youtube.com/" target="_blank" id="89" class="button button-3d button-primary button-rounded">YouTube</a>
-        <a href="https://gabrielecirulli.github.io/2048/" target="_blank" id="98" class="button button-3d button-caution"><i class="fa fa-camera"></i>2048</a>
-        <a href="https://www.zhihu.com/" target="_blank" id="90" class="button button-3d button-royal">知乎</a>
-      </span>
-    </div>
-	<section class="cd-section">
-
-		<div class="cd-modal-action">
-			<a href="#0" style="line-height: 3em;font-family: Microsoft YaHei Light;" class="btn" data-type="modal-trigger">快 捷 键</a>
-			<span class="cd-modal-bg"></span>
-		</div> <!-- cd-modal-action -->
-		<div class="cd-modal">
-			<div class="cd-modal-content">
-			  <p><span>Google</span><span>空格</span><p>
-			  <p><span>哔哩哔哩</span><span>i</span><p>
-			  <p><span>2048</span><span>2</span><p>
-			  <p><span>其余</span><span>首字母</span><p>
-			</div> <!-- cd-modal-content -->
-		</div> <!-- cd-modal -->
-		<a href="#0" class="cd-modal-close">Close</a>
-	  </section> <!-- .cd-section -->
+    <iframe frameborder="0" scrolling="no" src="demo/CSS3圆盘时钟动画/index.html" width="100%" height="300px"></iframe>
+    <iframe frameborder="0" scrolling="no" src="demo/HTML5水波浪起伏模拟动画/index2.html" width="100%" height="343px"></iframe>
 	  <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="按钮特效/js/velocity.min.js"></script>
-    <script src="按钮特效/js/main.js"></script> <!-- Resource jQuery -->
-    <script> document.onkeydown = function(){window.open(href = document.getElementById(event.keyCode).href);} </script>
+    <script src="js/快捷键/打开链接.js"></script>
+    <script src="js/文字/屏蔽文字选择复制.js"></script>
+    <script src="js/雪花/圣诞节雪花.js"></script>
+
 </body>
 </html>
