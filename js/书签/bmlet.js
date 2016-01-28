@@ -1,6 +1,6 @@
 x=''+window.getSelection(); y=document.createElement('script'); z=document.body.appendChild(y); u='https://pixkoy.github.io/js/'; s='src'; l=location; t=l.hostname; f=l.href; k=' '; p=t+k+x;
 if(!x)x=prompt('请输入：关键词、作品番号、神秘代码……\n');
-i=prompt('1、磁力搜索　2、求学问道　3、文字阅读　4、音乐图片\n\n5、收藏分享　6、下载解析　7、功能效率　8、科学上网\n\n9、动漫次元　0、福利关注　+、网址导航　-、私人定制\n');
+i=prompt('1、磁力搜索　2、求学问道　3、文字阅读　4、音乐图片　5、收藏分享\n\n6、下载解析　7、功能效率　8、科学上网　9、动漫次元　0、福利关注\n\n+、网址导航　-、私人定制\n');
 
 if(i==1){
   i=prompt('1、磁力搜索　2、番号作品　3、站内搜索　4、网页快照\n');
@@ -40,9 +40,9 @@ else if(i==2){
 }
 
 else if(i==3){
-  i=prompt('1、词典翻译　2、临时笔记　3、阅读模式　4、夜间模式\n\n4、解除右键限制　5、复制链接文字\n');
+  i=prompt('1、词典翻译　2、临时笔记　3、阅读模式　4、夜间模式　5、选择复制\n\n6、链接文字\n');
   if(i==1){
-    i=prompt('1、汉典　　　2、爱词霸　　3、沪江词典　4、必应划词\n\n5、百度翻译　6、谷歌翻译　7、有道翻译　8、必应翻译\n\n9、繁转简体\n');
+    i=prompt('1、汉典　　　2、爱词霸　　3、沪江词典　4、必应划词　5、百度翻译\n\n6、谷歌翻译　7、有道翻译　8、必应翻译　9、繁转简体\n');
     if(i==1){y.setAttribute(s,'http://www.zdic.net/tools/xzsy');z;}
     else if(i==2){var ICIBA_HUAYI_ALLOW=1,iciba_huaci_url="http://open.iciba.com/huaci/";void function(){if(!document.getElementById("icIBahyI-yi")){var a=document.createElement("div");a.id="icIBahyI-yi",a.style.display="none",a.style.zIndex="4294967295",document.body.insertBefore(a,document.body.firstChild);var i=document.createElement("div");i.id="icIBahyI-main_box",i.style.display="none",document.body.insertBefore(i,document.body.firstChild);var e='<link type="text/css" rel="stylesheet" href="'+iciba_huaci_url+'mini.css" /><object style="height:0px;width:0px;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="0" height="0" id="asound_hanci" align="absmiddle"><param name="allowScriptAccess" value="always" /><param name="movie" value="http://www.iciba.com/top/asound.swf" /><param name="quality" value="high" /><embed src="http://www.iciba.com/top/asound.swf" quality="high" width="0" height="0" name="asound_hanci" align="absmiddle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object><div class="icIBahyI-main_title" id="icIBahyI-main_title" ><a href="javascript:;" id="icIBahyI-gb" class="icIBahyI-gb" title="关闭"></a><a href="javascript:;" id="icIBahyI-dq" class="icIBahyI-dq2" title="点击固定结果"></a>爱词霸 即划即译<div class="icIBahyI-sz_list" id="icIBahyI-sz_list"><a href="javascript:;">关闭即划即译</a><a href="#" target="_blank">反馈</a><a href="#" style="border:none;" target="_blank">帮助</a><span class="icIBahyI-j icIBahyI-tl"></span><span class="icIBahyI-j icIBahyI-tr"></span><span class="icIBahyI-j icIBahyI-bl"></span><span class="icIBahyI-j icIBahyI-br"></span></div></div><div class="icIBahyI-search"><input id="ICIBA_HUAYI_input" name="" type="text" onkeydown="ICIBA_HUAYI_KEYDOWN(event);"><a href="javascript:;" class="icIBahyI-sear" onclick="ICIBA_HUAYI_searchword()" >查 词</a></div><span class="icIBahyI-contTop"></span><div class="icIBahyI-loading" id="loading"></div><div class="icIBahyI-main_cont" id="icIBahyI-main_cont"></div><div class="icIBahyI-CB" id="icIBahyI-scbiframe" style="display:none"></div><div id="ICIBA_TOO_LONG" style="height:150px" class="icIBahyI-footer">您划取的内容太长，建议您去爱词霸<a href="http://fy.iciba.com">翻译</a>页面。</div><span class="icIBahyI-contB"></span>';document.getElementById("icIBahyI-main_box").innerHTML=e;var c=document.createElement("script");c.setAttribute("src",iciba_huaci_url+"dict.php"),document.body.appendChild(c);var i=document.createElement("div");i.id="icIBahyI-USER_LOGIN",i.className="icIBahyI-USER_LOGIN",i.style.display="none",document.body.insertBefore(i,document.body.firstChild);var t=document.createElement("script");t.setAttribute("src",iciba_huaci_url+"ICIBA_HUACI_COM.js"),document.body.appendChild(t)}}();}
     else if(i==3){y.setAttribute(s,'http://dict.hujiang.com/app/js/dict_ajax.js');z;}
@@ -68,7 +68,7 @@ else if(i==4){
 }
 
 else if(i==5){
-  i=prompt('1、Saved.io　　　　2、Google 书签\n\n3、Google 二维码 　4、微博短网址\n');
+  i=prompt('1、Saved.io　2、Google 书签　3、Google 二维码　4、微博短网址\n');
   if(i==1){x=prompt('请选择分类：');if(x){window.open('http://'+x+'.saved.io/'+f);}else{window.open('http://saved.io/'+f);}}
   else if(i==2){var a=window,b=document,c=encodeURIComponent,d=a.open('https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk='+c(b.location)+'&title='+c(b.title),'','left=500,top=85,height=470,width=560');}
   else if(i==3){window.open('http://chart.apis.google.com/chart?cht=qr&chs=500x500&chl='+encodeURIComponent(f),'Qr code','top=100,left=600,width=500,height=500,status=yes');}
@@ -76,7 +76,7 @@ else if(i==5){
 }
 
 else if(i==6){
-  i=prompt('1、视频下载　2、离线下载　3、Chrome 应用下载\n\n4、链接地址补全　5、解除百度网盘限制\n');
+  i=prompt('1、视频下载　2、离线下载　3、Chrome 应用下载　4、链接地址补全\n\n5、解除百度网盘限制\n');
   if(i==1){
     i=prompt('1.视频解析　2、哔哩哔哩　3、YouTube\n');
     if(i==1){
@@ -85,13 +85,13 @@ else if(i==6){
       else if(i==2){window.open('http://deturl.com/'+f);}
     }
     else if(i==2){
-      i=prompt('1、爱哔哩　2、哔哩哔哩唧唧　3、bilibili.audio');
+      i=prompt('1、爱哔哩　2、哔哩哔哩唧唧　3、bilibili.audio\n');
       if(i==1){window.open(f.replace('bilibili','ibilibili'));}
       else if(i==2){window.open(f.replace('bilibili','bilibilijj'));}
       else if(i==3){window.open('http://bilibili.audio/'+f.match(/(av)([0-9]{6,8})/)[2]+'/1');}
     }
     else if(i==3){
-      i=prompt('1、超簡単♪　2、10YouTube　3、SaveMedia　4、YouTube-MP4');
+      i=prompt('1、超簡単♪　2、10YouTube　3、SaveMedia　4、YouTube-MP4\n');
       if(i==1){window.open(f.replace('https://www.youtube.com/watch?v=','http://youtube-video-download.info/video/'));}
       else if(i==2){window.open(f.replace('https://www.youtube','http://www.10youtube'));}
       else if(i==3){window.open(f.replace('youtube','savemedia'));}
@@ -129,11 +129,11 @@ else if(i==9){alert('未开放');}
 else if(i==='0'){alert('未开放');}
 
 else if(i=='+'){
-  i=prompt('1、百度、　2、Google　3、网易云音乐　4、千山导航\n\n-、Alexa百万站点\n');
+  i=prompt('1、百度　2、Google　3、网易云音乐　4、快速访问　-、Alexa百万站点\n');
   if(i==1){window.open('https://www.baidu.com/');}
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
-  else if(i==4){window.open('http://mynavsite.github.io/');}
+  else if(i==4){window.open('https://pixkoy.github.io/web/');}
   else if(i=='-'){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
 }
 
