@@ -1,1 +1,1 @@
-document.onkeydown = function(){window.open(href = document.getElementById(event.keyCode).href);} 
+document.onkeydown = function(){window.open(href = document.getElementById(event.keyCode).href);}

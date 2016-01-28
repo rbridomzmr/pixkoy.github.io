@@ -1,1 +1,4 @@
 javascript:y=document.createElement('script');y.setAttribute('src','https://pixkoy.github.io/js/书签/bmlet.js');document.body.appendChild(y);
+
+js=document.createElement('script');js.setAttribute('src','../../web/sweetalert/dist/sweetalert.min.js');document.body.appendChild(js);
+css=document.createElement('link');css.rel='stylesheet';css.setAttribute('href','../../web/sweetalert/dist/sweetalert.css');document.body.appendChild(css);

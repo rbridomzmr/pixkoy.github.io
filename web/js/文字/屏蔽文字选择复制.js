@@ -1,4 +1,3 @@
-
 (function($){
 
   $.fn.ctrlCmd = function(key) {
