@@ -40,7 +40,7 @@ else if(i==2){
 }
 
 else if(i==3){
-  i=prompt('1、词典翻译　2、临时笔记　3、阅读模式　4、夜间模式　5、选择复制\n\n6、链接文字\n');
+  i=prompt('1、词典翻译　2、临时笔记　3、阅读模式　4、夜间模式　5、选择复制\n\n6、链接文字　7.突出链接\n');
   if(i==1){
     i=prompt('1、汉典　　　2、爱词霸　　3、沪江词典　4、必应划词　5、百度翻译\n\n6、谷歌翻译　7、有道翻译　8、必应翻译　9、繁转简体\n');
     if(i==1){y.setAttribute(s,'http://www.zdic.net/tools/xzsy');z;}
@@ -58,6 +58,7 @@ else if(i==3){
   else if(i==4){var night=function(w){(function(d){var css='html{opacity:0.7!important;background:black!important;}body{background:white!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return;}}var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node);}})(w.document);for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f);}catch(e){}}};night(window);}
   else if(i==5){y.setAttribute(s,u+'功效/限制/解除右键限制.js');z;}
   else if(i==6){document.body.contentEditable=true;}
+  else if(i==7){style=document.createElement('style');text=document.createTextNode('.t_f a {color: #fff;background-color:#ff6699;padding:0 10px;}');style.appendChild(text);document.body.appendChild(style);}
 }
 
 else if(i==4){
