@@ -113,14 +113,15 @@ else if(i==6){
     if(i==1){window.open('magnet:?xt=urn:btih:'+x);}
     else if(i==2){window.open('http://pan.baidu.com/s/'+x);}
   }
-  else if(i==5){window.navigator.__defineGetter__('platform',function(){return''})}
+  else if(i==5){navigator.__defineGetter__('platform',function(){return''})}
 }
 
 else if(i==7){
-  i=prompt('1、视频广告　2、自动翻页　3、百度云输入法\n');
+  i=prompt('1、视频广告　2、自动翻页　3、百度云输入法　4、查看字体\n');
   if(i==1){y.setAttribute(s,'http://zythum.sinaapp.com/mama2/dest/index.js');z;}
   else if(i==2){y.setAttribute(s,'http://www.printwhatyoulike.com/static/pagezipper/pagezipper_10.js');z;}
   else if(i==3){y.setAttribute(s,'http://www.baidu.com/olime/bdime_open.js');z;}
+  else if(i==4){y.setAttribute(s,u+'文字/字体/查看字体.js');z;}
 }
 
 else if(i==8){alert('未开放');}
