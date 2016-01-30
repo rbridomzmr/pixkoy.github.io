@@ -134,7 +134,7 @@ else if(i=='+'){
   if(i==1){window.open('https://www.baidu.com/');}
   else if(i==2){window.open('https://www.google.com/');}
   else if(i==3){window.open('http://music.163.com/');}
-  else if(i==4){window.open('https://pixkoy.github.io/web/');}
+  else if(i==4){window.open('https://pixkoy.github.io/pixkoy/');}
   else if(i=='-'){window.open('http://s3.amazonaws.com/alexa-static/top-1m.csv.zip');}
 }
 
